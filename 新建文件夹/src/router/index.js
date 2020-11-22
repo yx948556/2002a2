@@ -23,8 +23,8 @@ const routes = [
 
 
   {
-    path: '/home',
-    name: 'Home',
+    path: '/homes',
+    name: 'home',
     component: ()=> import ("@/myvue/home")
   },
   {
