@@ -22,7 +22,7 @@
       <!-- 尾部区域 -->
       <footer>
         <p>
-          <i class="icon-design"></i>预约免费设计
+          <i class="icon-design"></i>预约免费设计1
         </p>
       </footer>
     </div>
