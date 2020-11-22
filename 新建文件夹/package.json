@@ -7,9 +7,32 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "axios": "^0.21.0",
+    "iscroll": "^5.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "vant": "^2.10.14",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "vuex": "^3.5.1"
+=======
+<<<<<<< HEAD
+    "sass-loader": "^7.3.1",
+=======
+<<<<<<< HEAD
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+=======
+>>>>>>> 3c9f208381d997bc387238f7be8eba247fe606c7
+    "vant": "^2.10.14",
+>>>>>>> febad46f35678af75c7a87500d42aa7693ce4227
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
     "vuex": "^3.4.0"
+>>>>>>> be0831d13884825cf83feaaf2e5dd7f19b4701ac
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~4.5.0",
