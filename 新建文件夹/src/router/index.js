@@ -23,9 +23,15 @@ const routes = [{
 
 
   {
+<<<<<<< HEAD
     path: '/home',
     name: 'Home',
     component: () => import("@/myvue/home")
+=======
+    path: '/homes',
+    name: 'home',
+    component: ()=> import ("@/myvue/home")
+>>>>>>> febad46f35678af75c7a87500d42aa7693ce4227
   },
   {
     path: '/imgs',

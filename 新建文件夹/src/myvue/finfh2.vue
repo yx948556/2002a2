@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>
     <header class="header">
       <div class="fd">
@@ -166,4 +167,38 @@ body {
   font-size: 0.26px;
   text-indent: 0.52em;
 }
+=======
+    <div>
+        <h1>装修历程</h1>
+    </div>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+
+        };
+    },
+    created() {
+
+    },
+    mounted() {
+
+    },
+    methods: {
+
+    },
+    computed:{
+
+    },
+    components:{
+
+    }
+};
+</script>
+
+<style scoped>
+
+>>>>>>> febad46f35678af75c7a87500d42aa7693ce4227
 </style>
