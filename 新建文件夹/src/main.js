@@ -84,10 +84,18 @@ router.beforeEach((to, from, next) => {
 
   // }
 
+<<<<<<< HEAD
   next()
 })
 // =======================================================================================
 /* eslint-disable no-new */
+=======
+//配置vant组件
+import Vant from 'vant';
+import 'vant/lib/index.css';
+Vue.use(Vant);
+
+>>>>>>> 3c9f208381d997bc387238f7be8eba247fe606c7
 new Vue({
   el: '#app',
   router,
