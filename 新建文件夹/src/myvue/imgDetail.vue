@@ -12,7 +12,7 @@
       <!-- 内容区域 -->
       <main>
         <div class="gwh_top">
-          <img src="/case1.jpg" alt />
+          <!-- <img src="/case1.jpg" alt /> -->
           <section>设计诠释:less is more 不需要过多的装饰,简单的墙面背景与简洁的家具即可成一个温暖的家</section>
         </div>
         <div
