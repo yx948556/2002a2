@@ -3,7 +3,7 @@
     <van-nav-bar title="装修预算">
       <van-image width="70" src="/图片/切图/logo.png" slot="left" />
       <van-divider slot="right">
-        <van-icon name="wap-nav" />
+        <i class="iconfont icon-nav"></i>
         <van-span>导航</van-span>
       </van-divider>
     </van-nav-bar>
@@ -30,11 +30,11 @@
           <p class="hope-p1">装修预算注意事项</p>
           <p class="hope-p2">
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-time"></i>
               2016-07-09
             </span>
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-view"></i>
               115
             </span>
           </p>
@@ -50,7 +50,7 @@
           </van-ul>
         </div>
         <div class="hope-lead">
-          <van-span>&nbsp;&nbsp;导语：在装修时如果没有提前做好装修预算，很容易造成最后开支过大，添置很多没必要的增项。那么在做预算的时候又有什么需要注意的地方呢？</van-span>
+          <van-span>导语：在装修时如果没有提前做好装修预算，很容易造成最后开支过大，添置很多没必要的增项。那么在做预算的时候又有什么需要注意的地方呢？</van-span>
           <van-image width="100%" src="/图片/切图/7t.gif" slot="left" />
         </div>
       </div>
@@ -58,11 +58,11 @@
         <van-button plain type="primary">点击展开全文</van-button>
         <p>
           <van-divider style="color:blue;">
-            <van-icon name="wap-nav" />
+            <i class="iconfont icon-pencle"></i>
             <van-span>评价</van-span>
           </van-divider>
           <van-divider style="color:yellow;">
-            <van-icon name="wap-nav" />
+            <i class="iconfont icon-share"></i>
             <van-span>分享</van-span>
           </van-divider>
         </p>
@@ -78,11 +78,11 @@
           <span>遇到有这样房子的男人就嫁了吧</span>
           <p class="hope-p2">
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-time"></i>
               2016-07-09
             </span>
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-view"></i>
               115
             </span>
           </p>
@@ -93,11 +93,11 @@
           <span>能让您涨工资的家具风水！</span>
           <p class="hope-p2">
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-time"></i>
               2016-07-09
             </span>
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-view"></i>
               115
             </span>
           </p>
@@ -108,11 +108,11 @@
           <span>遇到有这样房子的男人就嫁了吧</span>
           <p class="hope-p2">
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-time"></i>
               2016-07-09
             </span>
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-view"></i>
               115
             </span>
           </p>
@@ -123,11 +123,11 @@
           <span>能让您涨工资的家具风水！</span>
           <p class="hope-p2">
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-time"></i>
               2016-07-09
             </span>
             <span>
-              <i class="iconfont icon-nav"></i>
+              <i class="iconfont icon-view"></i>
               115
             </span>
           </p>
@@ -156,6 +156,8 @@
 </template>
 
 <script>
+import rem from '../js/rem'
+import  "../../图片/iconfont/iconfont.css";
 export default {
   data() {
     return {};
@@ -184,11 +186,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  .van-icon {
+  i {
+    margin: 0 auto;
     display: block;
     margin: 0 auto;
     color: #999;
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -282,11 +285,12 @@ body {
       flex-wrap: wrap;
       text-align: center;
       margin-left: 28%;
-      .van-icon {
-        display: block;
-        margin: 0 auto;
-        font-size: 20px;
-      }
+      i {
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+  }
     }
   }
 }
