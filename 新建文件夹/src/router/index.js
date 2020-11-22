@@ -52,6 +52,11 @@ const routes = [
     name: 'textDetail',
     component: ()=> import ("@/myvue/textDetail")
   },
+  {
+    path: '/renovation',
+    name: 'renovation',
+    component: ()=> import ("@/myvue/renovation")
+  },
 
 
 
