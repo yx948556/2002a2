@@ -7,11 +7,6 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "node-sass": "^4.14.1",
-    "sass-loader": "^7.3.1",
-=======
->>>>>>> 3c9f208381d997bc387238f7be8eba247fe606c7
     "vant": "^2.10.14",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
