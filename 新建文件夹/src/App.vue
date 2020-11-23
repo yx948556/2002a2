@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
-    <div id="nav">
-=======
-<<<<<<< HEAD
     <router-view />
-=======
     <!-- <div id="nav"> -->
->>>>>>> 3c9f208381d997bc387238f7be8eba247fe606c7
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> -->
+    <!-- </div> -->
     </div>
     <router-view/>
->>>>>>> 709f0d595a3db826563672917cc614fc6f512cc9
   </div>
 </template>
 
 <style>
 <<<<<<< HEAD
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,html,#app{
+  width: 100%;
+  height: 100%;
+  }
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -38,11 +41,9 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 } */
-=======
 body {
   margin: 0;
   padding: 0;
   width: 750px;
 }
->>>>>>> 3c9f208381d997bc387238f7be8eba247fe606c7
 </style>

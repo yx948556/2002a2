@@ -85,6 +85,17 @@ router.beforeEach((to, from, next) => {
   // }
 
 <<<<<<< HEAD
+// axios
+import axios from 'axios'
+Vue.prototype.$axios = axios
+// vant
+import Vant from 'vant'
+import 'vant/lib/index.css'
+Vue.use(Vant)
+
+Vue.config.productionTip = false
+=======
+<<<<<<< HEAD
   next()
 })
 // =======================================================================================
@@ -94,11 +105,19 @@ router.beforeEach((to, from, next) => {
 import Vant from 'vant';
 import 'vant/lib/index.css';
 Vue.use(Vant);
+>>>>>>> be0831d13884825cf83feaaf2e5dd7f19b4701ac
 
 >>>>>>> 3c9f208381d997bc387238f7be8eba247fe606c7
 new Vue({
   el: '#app',
   router,
   store,
+<<<<<<< HEAD
+  render: function (h) {
+    return h(App)
+  }
+}).$mount('#app')
+=======
   render: h => h(App)
 }).$mount("#app")
+>>>>>>> be0831d13884825cf83feaaf2e5dd7f19b4701ac
